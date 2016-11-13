@@ -1,3 +1,11 @@
 
 .idea/
 rewards.iml
+/UI/.vscode/
+/UI/node_modules/
+/UI/app/*.js
+/UI/app/dashboard/*.js
+/UI/app/home/*.js
+/UI/app/users/*.js
+/UI/app/shared/*.js
+
