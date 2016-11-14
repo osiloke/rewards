@@ -9,7 +9,6 @@ func main() {
 
 	r := gin.Default()
 	r.Use(static.Serve("/", static.LocalFile("./UI", true)))
-	//r.NoRoute(static.Serve("/", static.LocalFile("./UI", false)))
 	r.GET("/*action", func(c *gin.Context) {
 		c.File("./UI/index.html")
 	})
