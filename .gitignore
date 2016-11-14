@@ -1,3 +1,5 @@
 
 .idea/
 rewards.iml
+/UI/.vscode/
+/UI/node_modules/
