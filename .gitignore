@@ -4,8 +4,15 @@ rewards.iml
 /UI/.vscode/
 /UI/node_modules/
 /UI/app/*.js
+/UI/app/*.map
 /UI/app/dashboard/*.js
+/UI/app/dashboard/*.map
 /UI/app/home/*.js
+/UI/app/home/*.map
 /UI/app/users/*.js
+/UI/app/users/*.map
 /UI/app/shared/*.js
+/UI/app/shared/*.map
 
+UI/app/login/*.js
+UI/app/login/*.map
