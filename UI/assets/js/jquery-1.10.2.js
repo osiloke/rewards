@@ -8700,7 +8700,7 @@ if ( xhrSupported ) {
 						}
 					} catch( err ) {}
 
-					// Do send the request
+					// Do setTitle the request
 					// This may raise an exception which is actually
 					// handled in jQuery.ajax (so no try/catch here)
 					xhr.send( ( s.hasContent && s.data ) || null );
