@@ -5,6 +5,8 @@ rewards.iml
 /UI/node_modules/
 /UI/app/*.js
 /UI/app/*.map
+/UI/app/login/*.js
+/UI/app/login/*.map
 /UI/app/dashboard/*.js
 /UI/app/dashboard/*.map
 /UI/app/home/*.js
