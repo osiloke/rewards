@@ -2,6 +2,6 @@ package api
 
 import "github.com/gin-gonic/gin"
 
-func registerItemCouponApi(r *gin.Engine)  {
+func registerItemCouponApi(r *gin.RouterGroup)  {
 	
 }

@@ -2,6 +2,6 @@ package api
 
 import "github.com/gin-gonic/gin"
 
-func registerUtilsApi(r *gin.Engine)  {
+func registerUtilsApi(r *gin.RouterGroup)  {
 	
 }

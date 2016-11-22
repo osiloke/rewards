@@ -14,8 +14,7 @@ func main() {
 		c.File("./UI/index.html")
 	})
 
-
-	api.RegisterControllers(r)
-
+	apiGroup := r.Group("/api/v1")
+	api.RegisterControllers(apiGroup)
 	r.Run(":8080")
 }
