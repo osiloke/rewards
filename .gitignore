@@ -13,3 +13,4 @@ rewards.iml
 /UI/app/users/*.map
 /UI/app/shared/*.js
 
+/npm-debug.log

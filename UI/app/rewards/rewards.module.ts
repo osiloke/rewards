@@ -17,10 +17,15 @@ import { SystemService } from "../shared/system.service";
         RouterModule.forChild([
             { path: 'rewards', component: RewardComponent,
                 children:[
-                    { path: 'dashboard', component: DashBoardComponent},
-                    { path: 'users', component: UserComponent},
-                    { path: '', redirectTo: 'dashboard', pathMatch: 'full'}
-                ]}
+                    { path:'',
+                        children:[
+                            { path: 'dashboard', component: DashBoardComponent},
+                            { path: 'users', component: UserComponent},
+                            { path: '', redirectTo: 'dashboard', pathMatch: 'full'}
+                        ]
+                    }
+                ]
+            }
         ])
     ],
     declarations:[
