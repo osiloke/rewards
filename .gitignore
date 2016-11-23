@@ -16,3 +16,4 @@ rewards.iml
 
 UI/app/login/*.js
 UI/app/login/*.map
+/npm-debug.log
