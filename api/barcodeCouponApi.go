@@ -2,6 +2,6 @@ package api
 
 import "github.com/gin-gonic/gin"
 
-func registerBarcodeCouponApi(r *gin.Engine)  {
+func registerBarcodeCouponApi(r *gin.RouterGroup)  {
 	
 }
