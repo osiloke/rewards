@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/gin-gonic/contrib/static"
 	"github.com/gin-gonic/gin"
-	"github.com/3dev/rewards/UI/api"
+	"github.com/3dev/rewards/api"
 )
 
 func main() {
